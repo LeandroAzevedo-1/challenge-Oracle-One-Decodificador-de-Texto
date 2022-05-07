@@ -12,7 +12,7 @@ As chaves usadas para fazer essa criptografia foram:
 `A letra "o" é convertida para "ober"`<br>
 `A letra "u" é convertida para "ufat"`<br>
 
-💻 Tecnologias útilizadas:
+💻 Tecnologias utilizadas:
 
 <div style="display: inline_block"><br>
   <img align="center" alt="LeandroAzevedo-1-HTML" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg">
