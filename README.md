@@ -20,5 +20,9 @@ As chaves usadas para fazer essa criptografia foram:
   <img align="center" alt="LeandroAzevedo-1-JavaScript" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg">
 </div>
 <br><br>
-<a href=" https://leandroazevedo-1.github.io/challenge-Oracle-One-Decodificador-de-Texto/">CLIQUE AQUI E VEJA COMO FICOU </a>
+
+<div>
+  <a href="https://leandroazevedo-1.github.io/challenge-Oracle-One-Decodificador-de-Texto/" taget="_blank">CLIQUE AQUI E VEJA COMO FICOU</a>
+<div/>
+
 
