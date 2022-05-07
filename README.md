@@ -1,6 +1,6 @@
 # ❗❗ Challenge Oracle ONE: Decodificador de Texto ❗❗
 
-Sejam bem-vindo(a) ao repositótio do challenge Oracle ONE  Decodificador de Texto
+Sejam bem-vindo(a) ao repositório do challenge Oracle ONE Decodificador de Texto
 
 Decodificador de texto tem como objetivo, Criptografar, descriptografar e copiar. 
 
