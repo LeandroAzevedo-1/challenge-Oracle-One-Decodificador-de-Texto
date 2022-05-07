@@ -4,7 +4,7 @@ Seja bem-vindo(a) ao repositório do challenge Oracle ONE Decodificador de Texto
 
 Decodificador de texto tem como objetivo, criptografar, descriptografar e copiar. 
 
-As chaves usada para fazer essa criptografia foram: 
+As chaves usadas para fazer essa criptografia foram: 
 
 `A letra "e" é convertida para "enter"`<br>
 `A letra "i" é convertida para "imes"`<br>
