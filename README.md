@@ -2,7 +2,7 @@
 
 Seja bem-vindo(a) ao repositório do challenge Oracle ONE Decodificador de Texto
 
-Decodificador de texto tem como objetivo, Criptografar, descriptografar e copiar. 
+Decodificador de texto tem como objetivo, criptografar, descriptografar e copiar. 
 
 As chaves usada para fazer essa criptografia foram: 
 
