@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Decodificador</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="src/css/reset.css">
+    <link rel="stylesheet" href="src/css/styel.css">
+</head>
+<body>
+
+    <header class="logo">
+        <a href="https://www.alura.com.br/" target="_brank"><img src="src/imagens/logoAlura.png" alt="Logo Alura">
+        </a>
+        <a href="https://www.alura.com.br/" target="_brank"><h1> 1º Challenge Oracle ONE Decodificador de Texto</h1></a>
+        
+    </header>
+
+    <main class="main">
+
+        <section class="secao-texto">
+            <textarea class="input-texto" cols="40" rows="6" placeholder="Digite seu texto"></textarea>
+
+            <div>
+                <h6 class="infomacao">
+                    <img src="src/imagens/iconeMsg.png" alt="icone mensagem">
+                    Apenas letras minúsculas e sem acento</h6>
+            </div>
+            <div class="botoes">
+                <button class="encriptar" onclick="btnCriptografar()">
+                    Criptografar
+                </button>
+    
+                <button class="desencriptar" onclick="btnDescriptografar ()">
+                    Descriptografar
+                </button>
+            </div>
+
+            <div class="footer">
+                <span>
+                    &copy; Desenvolvido por: Leandro de Azevedo Souza
+                </span>
+                <div class="redes-sociais">
+                    <a href="https://www.linkedin.com/in/leandro-de-azevedo-souza-566200211/" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>
+
+                    <a href="https://github.com/LeandroAzevedo-1" target="_blank"><i class="fa-brands fa-github" ></i></a>
+
+                    <a href="https://www.instagram.com/leo_desenvolvedor_frontend/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                
+                </div>
+            </div>
+        </section>
+        
+        <section>
+            <textarea  class="mensagem" cols="20" rows="8"></textarea> 
+            
+            <button id="btnCopiar" onclick="copiar()">Copiar</button>
+
+            <div class="texto-saida">
+                <h3>Nenhuma mensagem encontrada</h3>
+                <p>Digite um texto que você deseja criptografar ou descriptografar.</p>
+            </div>
+        </section>
+        
+    </main>
+
+    <script src="src/js/script.js"></script>
+</body>
+</html>
