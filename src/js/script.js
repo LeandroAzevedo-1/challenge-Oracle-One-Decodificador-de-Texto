@@ -11,7 +11,6 @@ function btnCriptografar() {
         alert("Você precisa digitar um texto para Criptografar")
         return textoEncriptado
     }
-    
     mensagem.value = textoEncriptado
     mensagem.style.background="#fff"
     textoSaida.style.display='none'
@@ -31,12 +30,15 @@ function encriptar(stringEncriptada) {
     
     return stringEncriptada
     
-
 }
 
 //Desencriptografar
 function btnDescriptografar() {
     const textDesencriptado = desencriptar(mensagem.value)
+    if(textDesencriptado == ""){
+        alert("Digite o texto que deseja Descriptografar")
+        return textDesencriptado
+    }
     mensagem.value = textDesencriptado
     mensagem.style.color='#f00'
     mensagem.style.fontSize='25px'
@@ -63,5 +65,6 @@ function copiar() {
     document.execCommand('copy')
     alert('Conteúdo Copiado!')
     alert('Use o Ctrl + v, para colar onde você desejar')
-  }
-  
+}
+
+
