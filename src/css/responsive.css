@@ -1,10 +1,42 @@
+@media screen and (max-width: 768px) {
+    .main {
+        display: inline-block;
+    }
+    .logo h1 {
+        font-size: 18px;
+    }
+    .msg-saida {
+        text-align: center;
+    }
+    .mensagem {
+        width: 90%;
+        height: 400px;
+        bottom: -15px;
+        border: none;
+        resize: none;
+        border-radius: 15px;
+        padding: inherit;
+        background-size: 200px;
+    }
+    .texto-saida {
+        position: relative;
+        bottom: 80px;
+        width: 100%;
+        margin-left: 0px;
+    }
+}
+
 @media screen and (max-width: 525px){
+    body {
+        text-align: center;
+    }
     .main {
         display: block;
     }
+    
     .informacao {
         font-size: 9px;
-        margin: 10px 0 20px 40px;
+        margin: 10px 0 20px 120px;
     }
     .logo a h1 {
         font-size: 9px;
@@ -12,42 +44,35 @@
     .input-texto {
         height: 120px;
         font-size: 16px;
+        width: 90%;
     }
     .input-texto::placeholder {
         font-size: 14px;
     }
     .encriptar {
-        width: 230px;
+        width: 90%;
         height: 48px;
         margin-bottom: 10px;
     }
     .desencriptar {
-        width: 230px;
+        width: 90%;
         height: 48px;
         font-size: 18px;
         margin-bottom: 20px;
         margin-left: 0px;
     }
-
-    .mensagem {
+    .msg-saida {
         width: 100%;
-        height: 280px;
-        background-size: 150px;
-        margin-top: 130px;
-        /* display: none; */
-    }
-    .texto-saida {
-        bottom: 0px;
-        width: 90%;
         text-align: center;
-        margin-left: -10px;
     }
     .texto-saida h3 {
         font-size: 14px;
+        width: 100%;
     }
     .texto-saida p {
         margin-top: 5px;
         font-size: 10px;
+        width: 100%;
     }
     #btnCopiar {
         bottom: 50px;
