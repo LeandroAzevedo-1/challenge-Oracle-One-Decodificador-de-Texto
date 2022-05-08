@@ -18,11 +18,24 @@
         padding: inherit;
         background-size: 200px;
     }
+    .encriptar {
+        width: 200px;
+        height: 48px;
+        font-size: 14px;
+    }
+    .desencriptar {
+        width: 200px;
+        height: 48px;
+        font-size: 14px;
+    }
     .texto-saida {
         position: relative;
         bottom: 80px;
         width: 100%;
         margin-left: 0px;
+    }
+    .redes-sociais i {
+        margin: 15px 30px;
     }
 }
 
@@ -44,7 +57,7 @@
     .input-texto {
         height: 120px;
         font-size: 16px;
-        width: 90%;
+       
     }
     .input-texto::placeholder {
         font-size: 14px;
@@ -94,7 +107,5 @@
     .redes-sociais {
         margin-left: 0px;
     }
-    .redes-sociais i {
-        margin: 15px 30px;
-    }
+    
 }

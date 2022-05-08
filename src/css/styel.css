@@ -26,7 +26,8 @@ body{
     font-size: 32px;
     resize: none; 
     height: 300px;
-    padding-left: 8%;  
+    padding-left: 8%; 
+    width: 90%; 
 }
 .input-texto:focus {
     outline: 0;
