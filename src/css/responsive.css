@@ -20,6 +20,11 @@
         width: 100%;
         text-align: center;
     }
+    #btnCopiar {
+        position: absolute;
+        bottom: -280px;
+        left: 35%;
+    }
 }
 @media screen and (max-width: 768px) {
     .main {
@@ -35,11 +40,10 @@
         margin: 10px 17% 20px 0%;
     }
     .mensagem {
-        border: none;
-        resize: none;
         border-radius: 15px;
         padding: inherit;
         background-size: 200px;
+        height: 250px;
     }
     .encriptar {
         width: 200px;
@@ -52,13 +56,26 @@
         font-size: 14px;
     }
     .texto-saida {
-        bottom: -200px;
+        bottom: -120px;
+    }
+    .texto-saida h3 {
+        font-size: 10px;
+        width: 100%;
+    }
+    .texto-saida p {
+        margin-top: 5px;
+        font-size: 8px;
+        width: 100%;
     }
     .redes-sociais i {
         margin: 15px 30px;
     }
     .footer span {
         font-size: 12px;
+    }
+    #btnCopiar {
+        bottom: 0px;
+        left: 30%;
     }
 }
 
@@ -100,25 +117,18 @@
         width: 100%;
         text-align: center;
     }
+    .mensagem {
+        background-size: 130px;
+    }
     .texto-saida {
-        bottom: -100px;
+        bottom: 20px;
     }
-    .texto-saida h3 {
-        font-size: 14px;
-        width: 100%;
-    }
-    .texto-saida p {
-        margin-top: 5px;
-        font-size: 10px;
-        width: 100%;
-    }
+    
     #btnCopiar {
-        bottom: 50px;
-        right: 35px;
-        width: 230px;
+        bottom: 110px;
+        left: 30%;
+        width: 200px;
         height: 48px;
-        
-        font-size: 16px;
     }
     .footer {
         flex-direction: column;
