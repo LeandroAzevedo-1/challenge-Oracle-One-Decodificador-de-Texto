@@ -56,7 +56,7 @@
         font-size: 14px;
     }
     .texto-saida {
-        bottom: -120px;
+        bottom: -10px;
     }
     .texto-saida h3 {
         font-size: 10px;
@@ -121,7 +121,7 @@
         background-size: 130px;
     }
     .texto-saida {
-        bottom: 20px;
+        bottom: 130px;
     }
     
     #btnCopiar {
